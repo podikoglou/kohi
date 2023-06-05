@@ -43,5 +43,5 @@ public:
   ClassFile(std::string name, std::vector<char> data)
       : name(name), data(data) {}
 
-  void analyze() {}
+  void analyze();
 };
